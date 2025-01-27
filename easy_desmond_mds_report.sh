@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script to generate and/or submit a PBS job script on Lengau Cluster for Desmond MDS report
+# Script to generate and submit a PBS job script on Lengau Cluster for Desmond MDS report
 
 # Get the current working directory
 working_directory=$(pwd)
