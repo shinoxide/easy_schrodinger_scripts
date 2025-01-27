@@ -18,7 +18,7 @@ With `easy_desmond_report`, the entire process happens on the cluster, reducing 
 
 #### **Resources:**
 
-- [Brief Tutorial Video](https://www.youtube.com/)
+- [Brief Tutorial Video](https://youtu.be/fcyOJSXfcw8)
 
 ---
 
