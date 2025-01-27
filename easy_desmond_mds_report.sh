@@ -108,7 +108,7 @@ cd ${working_directory}
 
 \$SCHRODINGER/run analyze_simulation.py ${input_file} ${input_file%-out.cms}_trj ${input_file%-out.cms}-out.eaf ${input_file%-out.cms}-in.eaf
 
-\$SCHRODINGER/run event_analysis.py report -pdf ./${data_dir}/${input_file%-out.cms}.pdf -data -plots -data_dir ./${data_dir}/ ${input_file%-out.cms}-out.eaf -HOST localhost:24 -TMPLAUNCHDIR -JOBNAME "report_${input_file%-out.cms}"
+\$SCHRODINGER/run event_analysis.py report -pdf ./${data_dir}/${input_file%-out.cms}.pdf -data -plots -data_dir ./${data_dir}/ ${input_file%-out.cms}-out.eaf -HOST localhost:1 -TMPLAUNCHDIR -JOBNAME "report_${input_file%-out.cms}"
 
 rm ${working_directory}/${data_dir}/P-SSE_Timeline.svg 
 EOL
