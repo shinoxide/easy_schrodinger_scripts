@@ -98,7 +98,6 @@ cat > "$output_pbs" <<EOL
 #PBS -e ${working_directory}/pbs.err
 ulimit -s unlimited
 
-ssh login1
 module purge
 module add chpc/schrodinger/${schrodinger_version}
 
